@@ -1,0 +1,7 @@
+playwright
+transformers
+chromadb
+torch
+python-dotenv
+requests
+fpdf
