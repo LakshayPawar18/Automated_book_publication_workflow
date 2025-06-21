@@ -31,3 +31,24 @@ After the AI writer and reviewer finish their steps, the system **invites human 
 ### 🧪 Advanced Option
 
 Want to edit in your favorite editor (e.g. VS Code)?
+
+## 🚀 Quickstart
+### 1. Clone the Repository
+git clone https://github.com/YOUR_USERNAME/auto-book-publisher.git
+cd auto-book-publisher
+
+### 2. Install Dependencies
+pip install -r requirements.txt
+
+### 3. Install Playwright Browsers
+playwright install
+This installs the required Chromium engine used for scraping and screenshot capture.
+
+### 4. Add Groq API Key
+- Create a .env file:
+- GROQ_API_KEY=your_groq_api_key_here
+
+Get your free key from https://console.groq.com
+
+### 5. Run the Project
+- python app.py
